@@ -1,48 +1,53 @@
 <template>
-    <nav class="navbar">
-        <div class="navbar-container">
-            <img src="../assets/Monogram.svg" alt="monogram logo" class="navbar-logo"/>
-            <img src="../assets/Logo.svg" alt=" Main Logo" class="navbar-logo" style="margin-left: 16rem"/>
-            <ul class="navbar-menu">
-                <li class="navbar-item"><a href="#home" class="navbar-link">Home</a></li>
-                <li class="navbar-item"><a href="#about" class="navbar-link">About</a></li>
-                <li class="navbar-item"><a href="#resume" class="navbar-link">Resume</a></li>
-                <li class="navbar-item"><a href="#contact" class="navbar-link">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="/"><img src="../assets/Monogram.svg" alt="monogram logo" class="navbar-logo" /></a>
+      <img src="../assets/Logo.svg" alt=" Main Logo" class="navbar-logo" style="margin-left: 16rem" />
+      <ul class="navbar-menu">
+        <li class="navbar-item"><a href="/" class="navbar-link">Home</a></li>
+        <li class="navbar-item"><a href="about" class="navbar-link">About</a></li>
+        <li class="navbar-item"><a class="navbar-link" href="../resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a></li>
+        <li class="navbar-item"><a href="contact" class="navbar-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 </template>
 <style lang="css">
 .navbar {
-    color: white;
-    padding: 1rem;
+  color: white;
+  padding: 1rem;
 }
+
 .navbar-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
 .navbar-logo {
-    height: 100px;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
+  height: 100px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
 
 }
+
 .navbar-menu {
-    list-style: none;
-    display: flex;
-    gap: 2rem;    
+  list-style: none;
+  display: flex;
+  gap: 2rem;
 }
+
 .navbar-link {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
 }
+
 .navbar-link:hover {
-    background: linear-gradient(135deg, #F3B1F2, #9EC6FD);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    
+  background: linear-gradient(135deg, #F3B1F2, #9EC6FD);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 </style>

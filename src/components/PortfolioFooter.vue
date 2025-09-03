@@ -4,15 +4,15 @@
       <div class="footer-section">
         <img src="../assets/Biglogo.svg" alt="monogram logo" class="footer-logo" />
         <div class="footer-contact">
-          <p class="link">(678)-982-2306</p>
-          <p class="link">Hannah2520@gmail.com</p>
+          <p>(678)-982-2306</p>
+          <p>Hannah2520@gmail.com</p>
         </div>
       </div>
       <div class="footer-section">
         <div class="footer-links">
-          <h2><a href="https://www.linkedin.com/in/hanniekwak/" class="link">Linkedin</a></h2>
-          <h2><a href="https://medium.com/@hannah2520" class="link">Medium</a></h2>
-          <h2><a href="https://github.com/hannah2520" class="link">Github</a></h2>
+          <h2><a href="https://www.linkedin.com/in/hanniekwak/" class="link" target="_blank" rel="noopener noreferrer">Linkedin</a></h2>
+          <h2><a href="https://medium.com/@hannah2520" class="link" target="_blank" rel="noopener noreferrer">Medium</a></h2>
+          <h2><a href="https://github.com/hannah2520" class="link" target="_blank" rel="noopener noreferrer">Github</a></h2>
         </div>
       </div>
     </div>
@@ -24,7 +24,7 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  margin-top: 10%;
+  margin-top: 8%;
   flex-direction: column;
 }
 .footer-container {
